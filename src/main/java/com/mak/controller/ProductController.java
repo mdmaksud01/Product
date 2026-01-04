@@ -19,7 +19,7 @@ public class ProductController {
 	
 	@GetMapping("/")
 	public String from() {
-		return "addProduct";
+		return "AddProduct";
 	}
 	
 	@PostMapping("/save")
