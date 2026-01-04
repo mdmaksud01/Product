@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mak.Entity.Product;
 import com.mak.service.ProductService;
-@RestController
+@Controller
 public class ProductController {
 	
 	@Autowired
