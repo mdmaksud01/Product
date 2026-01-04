@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.mak.Entity.Product;
 import com.mak.service.ProductService;
-
-@Controller
+@RestController
 public class ProductController {
 	
 	@Autowired
